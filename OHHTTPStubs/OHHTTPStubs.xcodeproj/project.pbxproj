@@ -813,7 +813,11 @@
 					093442DD1B80EC4A00A91535 = {
 						LastSwiftMigration = 0800;
 					};
+					095981C119806A7900807DBE = {
+						LastSwiftMigration = 0800;
+					};
 					095981D119806A7900807DBE = {
+						LastSwiftMigration = 0800;
 						TestTargetID = 095981C119806A7900807DBE;
 					};
 					725CD99A1A9EB65100F84C8B = {
@@ -1495,10 +1499,11 @@
 				INFOPLIST_FILE = "Supporting Files/OHHTTPStubs Mac-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -1521,10 +1526,11 @@
 				INFOPLIST_FILE = "Supporting Files/OHHTTPStubs Mac-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alisoftware.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OHHTTPStubs;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -1556,6 +1562,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -1584,6 +1591,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
